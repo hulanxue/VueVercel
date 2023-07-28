@@ -26,11 +26,10 @@ const isAuto=computed(()=>{
   <span >{{ message+10 }}</span>
   <span v-html="rawHtml"></span>
   <h1 :id="id">{{ msg }}</h1>
-  <button type="button" :disabled="isAuto" @click="buttonClick">Button</button>
+  <button type="button" :disabled="isAuto" @click="buttonClick">Modify</button>
   <div class="card">
-    <button type="button" @click="count++">count is {{ count }}</button>
+     <!--<button type="button" @click="count++">count is {{ count }}</button>-->
   </div>
-  <div>{{ state.status }}</div>
 </template>
 
 <style scoped>
